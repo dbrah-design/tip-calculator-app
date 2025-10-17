@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  
+</head>
+<body>
+
+  <h1 class="title center">Spli<span>tter</span></h1>
+  <!-- <h1 class="title center">tter</h1> -->
+  <div class="wrapper">
+    <div class="box row container">
+      <div class="input-col">
+        <h3>Bill</h3>
+        
+          <input type="text" placeholder="0" class="input-style dollar-icon icon spacing js-bill-input">
+    
+        <h3>Select Tip %</h3>
+        <div class="tip-btn-container">
+          <button class="tip-btn js-tip-btn" data-tip="5">5%</button>
+          <button class="tip-btn js-tip-btn" data-tip="10">10%</button>
+          <button class="tip-btn js-tip-btn" data-tip="15">15%</button>
+          <button class="tip-btn js-tip-btn" data-tip="25">25%</button>
+          <button class="tip-btn js-tip-btn" data-tip="50">50%</button>
+          <!-- <button class="tip-btn-gray">Custom</button> -->
+          <input type="text" class="tip-btn-gray js-tip-custom" placeholder="Custom">
+        </div>
+        <div class="people-label">
+          <h3>Number of People</h3>
+          <h3 class="error-message">Can't be zero</h3>
+        </div>
+        <input type="text" placeholder="0" class="input-style person-icon icon spacing js-people-input">
+        
+      </div>
+      
+      <div class="output-col">
+        <div class="amount-wrapper spacing">
+          <div>
+            <p class="white">Tip Amount</p>
+            <p class="gray">/ person</p>
+          </div>
+          <p class="amount js-tip-amount">$0.00</p>
+        </div>
+  
+        <div class="total-wrapper spacing">
+          <div>
+            <p class="white">Total</p>
+            <p class="gray">/ person</p>
+          </div>
+          <p class="amount js-total">$0.00</p>
+        </div>
+        
+        <button class="reset-btn js-reset-btn">Reset</button>
+      </div>
+  
+  
+    </div>
+  </div>
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset -->
