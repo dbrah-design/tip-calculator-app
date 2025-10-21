@@ -87,13 +87,14 @@ function calculate() {
   tipAmount.textContent = `$${tip.toFixed(2)}`;
 }
 
-// Got app to work overall. Just need to fix some bugs, get the reset button to work and I'm done.
-
 /* This is the calculation  I came up with based on what the ai suggested me to do. Gets me the same answer*/
   // const tip = billValue * (tipPercentage / 100)  / numOfPeople
   // const totalResult = (billValue / numOfPeople) + tip;
 
-// Just need to get error message to work on num of people and reset button to work, and I'm done. Going to start with reset button first because that seems easier then going to focus on the error message. Could put inside the num of people that if the user types in 0 into the input then the error message pops in and the styles that come with it. Otherwise run the calculation. Going to use the newsletter project to help me write the code for the styles and the logic for getting the error message
+// Just need to get error message to work on num of people and reset button to work, and I'm done. Going to start with reset button first because that seems easier then going to focus on the error message. 
+  // Could put inside the num of people that if the user types in 0 into the input then the error message pops in and the styles that come with it. 
+  // Otherwise run the calculation. 
+  // Going to use the newsletter project to help me write the code for the styles and the logic for getting the error message
 
 
 
